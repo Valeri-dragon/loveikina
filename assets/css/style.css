@@ -355,14 +355,8 @@ ul li ul.submenu.open_sub-menu {
   margin-top: 36px;
   align-items: center;
 }
-/*.btn__left__slider__prewie {
-  width: 64px;
-height: 64px;
-  background: url(../../assets/icon/arrow_btn_left.svg), no-repeat;
-    background-size: cover;
-  background-position: center center;
-}*/
-.btn__right__slider__prewie svg {
+
+.btn__right__slider__prewie svg, .btn__right__slider__interest svg {
   rotate: 180deg;
 }
 .cont-btn__slider__prewie .btn__slider:hover {
@@ -385,4 +379,86 @@ height: 64px;
 }
 .board .row {
   align-items:flex-end;
+}
+/*about-me*/
+.about-me {
+  position: relative;
+  background: url(../../assets/img/main_index__about_me_bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 114px 0 20px;
+}
+.about-me .title_section{
+  margin-bottom: 24px;
+}
+.list__about-me {
+     width: 53%;
+    border-radius: 10px;
+    padding: 22px 30px;
+    margin-left: auto;
+}
+
+.link__block-lists {
+   text-decoration: underline;
+}
+.link__block-lists:hover {
+  color: #d7a785;
+}
+.item__block-lists {
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+.item__block-lists:before {
+    display: block;
+    content: " ";
+    width: 34px;
+    height: 24px;
+  background: url(../../assets/icon/romb_2.svg) no-repeat;
+      margin-top: 1.5px;
+}
+/*interest*/
+.interest{
+    position: relative;
+  background:  url(../../assets/img/interest_bg_2.png) top right/25%  no-repeat,url(../../assets/img/main_index_intresting_bg.jpg) top right/100% 100% no-repeat;
+  /*background-position: left top, left top;
+  background-size: round auto;*/
+  padding: 62px 0 20px;
+}
+.interest .title_section{
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 110px;
+}
+.link_post_interest{
+  font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+color: #FFFFFF;
+}
+.conteiner-slider-interest, .conteiner-slider-interest a.column {
+  width: 75%;
+  margin-left: 0;
+}
+.conteiner-slider-interest{
+  position: relative;
+}
+.btn__left__slider__interest {
+  
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.interest .description_section, .interest .description_section .link{
+ width: 40%;
+  font-weight: 500;
+font-size: 14px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+}
+.interest .description_section .link{
+  border-bottom: 1px solid #ffffff;
 }

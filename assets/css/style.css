@@ -489,4 +489,5 @@ border-radius: 50px;
 }
 .interest .description_section .link {
   border-bottom: 1px solid #ffffff;
+  cursor: pointer;
 }

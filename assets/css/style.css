@@ -411,19 +411,18 @@ ul li ul.submenu.open_sub-menu {
   color: #d7a785;
 }
 .item__block-lists {
-  width: 96%;
-  display: flex;
+   display: flex;
   flex-direction: row;
   align-items: flex-start;
   margin-bottom: 24px;
 }
 .item__block-lists:before {
-  display: block;
-  content: " ";
-  width: 34px;
+    content: " ";
+  width: 10px;
   height: 24px;
   background: url(../../assets/icon/romb_2.svg) no-repeat;
   margin-top: 1.5px;
+  padding-right: 15px;
 }
 /*interest*/
 .interest {
@@ -491,3 +490,19 @@ border-radius: 50px;
   border-bottom: 1px solid #ffffff;
   cursor: pointer;
 }
+/*why__me*/
+.why__me {
+  margin: 90px 0;
+}
+.container__why-me {
+      justify-content: center;
+    align-items: center;
+}
+.container__why-me .title_section {
+  margin-bottom: 24px;
+}
+.container__why-me .row{
+  align-items: center;
+      gap: 90px;
+}
+

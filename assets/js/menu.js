@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
           ele.classList.toggle("open_sub-menu");
         });
       }
-      console.dir(subMenu);
     });
   });
 });

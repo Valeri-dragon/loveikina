@@ -433,7 +433,7 @@ ul li ul.submenu.open_sub-menu {
       no-repeat;
   /*background-position: left top, left top;
   background-size: round auto;*/
-  padding: 62px 0 20px;
+  padding: 62px 0 120px;
 }
 .interest .title_section {
   color: #ffffff;

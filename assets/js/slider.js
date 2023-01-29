@@ -21,14 +21,13 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
   //conteiner-slider-interest
-   const swiper1 = new Swiper(".conteiner-slider-interest", {
-     // Optional parameters
+  const swiper1 = new Swiper(".conteiner-slider-interest", {
+    // Optional parameters
 
-     loop: true,
-     slidesPerView: 2,
-    
+    loop: true,
+    slidesPerView: 2,
 
-     /* breakpoints: {
+    /* breakpoints: {
        1560: {
          slidesPerView: 2,
        },
@@ -37,10 +36,29 @@ document.addEventListener("DOMContentLoaded", () => {
        },
      },*/
 
-     // Navigation arrows
-     navigation: {
-       nextEl: ".btn__right__slider__interest",
-       prevEl: ".btn__left__slider__interest",
-     },
-   });
+    // Navigation arrows
+    navigation: {
+      nextEl: ".btn__right__slider__interest",
+      prevEl: ".btn__left__slider__interest",
+    },
+  });
+  //conteiner-slider-feedback
+  const swiper2 = new Swiper(".conteiner-slider-feedback", {
+    // Optional parameters
+
+    loop: true,
+    slidesPerView: 4,
+    autoplay: {
+      delay: 2000,
+    },
+    /* breakpoints: {
+       1560: {
+         slidesPerView: 2,
+       },
+       768: {
+         slidesPerView: 1,
+       },
+     },*/
+  });
+  swiper2.autoplay.start();
 });

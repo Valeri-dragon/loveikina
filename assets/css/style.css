@@ -240,7 +240,7 @@ ul li ul.submenu.open_sub-menu {
 .links__item:nth-child(4) {
   padding-left: 24px;
 }
-.link:hover {
+.link:hover,.link__block-lists:hover, .link.theme_color:hover, .content_box-i-help:hover .link_post_interest, .open-player:hover span.pseudo_link {
   color: #dda67e;
 }
 .menu-link__active {
@@ -407,9 +407,6 @@ ul li ul.submenu.open_sub-menu {
 .link__block-lists {
   text-decoration: underline;
 }
-.link__block-lists:hover {
-  color: #d7a785;
-}
 .item__block-lists {
   display: flex;
   flex-direction: row;
@@ -566,9 +563,6 @@ video.video__videofeedbackslider {
   text-decoration-line: underline;
   color: #667281;
   transition: all 1s;
-}
-.link.theme_color:hover {
-  color: #d7a785;
 }
 .conteiner-slider-feedback .column {
   height: 400px;

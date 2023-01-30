@@ -598,7 +598,7 @@ video.video__videofeedbackslider {
   color: #2a3645;
   cursor: pointer;
 }
-.conteiner-slider-feedback .link_post_interest {
+.conteiner-slider-feedback .link_post_interest, .content_box-i-help .link_post_interest {
   display: flex;
   font-weight: 500;
   font-size: 18px;
@@ -608,6 +608,19 @@ video.video__videofeedbackslider {
 }
 .content_feedback .link_post_interest {
   margin-top: 10px;
+}
+/*i-help*/
+.i-help{
+  padding:120px 0 ;
+}
+.i-help .title_section{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+.content_box-i-help .link_post_interest{
+  font-weight: 600;
+  margin-top: 12px;
 }
 .hidden {
   display: none;

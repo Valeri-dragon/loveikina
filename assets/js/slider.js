@@ -60,5 +60,28 @@ document.addEventListener("DOMContentLoaded", () => {
        },
      },*/
   });
+  //conteiner-slider-my-course
+   const swiper3 = new Swiper(".conteiner-slider-my-course", {
+     // Optional parameters
+
+     loop: true,
+     //spaceBetween: -65,
+     slidesPerView: 4,
+
+     /* breakpoints: {
+       1560: {
+         slidesPerView: 2,
+       },
+       768: {
+         slidesPerView: 1,
+       },
+     },*/
+
+     // Navigation arrows
+     navigation: {
+       nextEl: ".btn__right__slider__course",
+       prevEl: ".btn__left__slider__course",
+     },
+   });
   swiper2.autoplay.start();
 });

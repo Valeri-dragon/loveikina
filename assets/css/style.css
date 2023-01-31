@@ -244,7 +244,8 @@ ul li ul.submenu.open_sub-menu {
 .link__block-lists:hover,
 .link.theme_color:hover,
 .content_box-i-help:hover .link_post_interest,
-.open-player:hover span.pseudo_link {
+.open-player:hover span.pseudo_link,
+.contacts .block-lists .item__block-lists:hover .link-contacts-me {
   color: #dda67e;
 }
 .menu-link__active {
@@ -625,6 +626,7 @@ video.video__videofeedbackslider {
 /*my-course*/
 .my_course{
   position: relative;
+  padding-bottom: 130px;
 }
 .catagory-widget .row {
   justify-content: flex-start;
@@ -678,13 +680,34 @@ color: #C9A992;
 
 .row.conteiner-btn__slider.cont-btn__slider__course {
 position: absolute;
-    top: 40%;
+    top: 35%;
     z-index: 2;
     margin-left: 35px;
     justify-content: space-between;
     gap: 575%;
 }
+/*contacts*/
+.contacts .column{
+  margin: auto;
+}
+.contacts .block-lists{
+  margin-top: 26px;
+  margin-bottom: 18px;
+  font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #2A3645;
+}
 
+.contacts .item__block-lists{
+  margin-bottom: 20px;
+}
+.contacts .item__block-lists:before{
+  content: none;
+}
+span.box__content-contacts-me svg {
+    margin-right: 20px;
+}
 .hidden {
   display: none;
 }

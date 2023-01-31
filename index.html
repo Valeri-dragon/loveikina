@@ -15,6 +15,7 @@
   <script defer src="./assets/js/menu.js"></script>
   <script defer src="./assets/js/slider.js"></script>
   <script defer src="./assets/js/video.js"></script>
+  <script defer src="./assets/js/popup.js"></script>
   </head>
 
 <body class="page">
@@ -782,6 +783,43 @@
  
 
   </ul>
+  <div class="box__poup-consult">
+    <div class="popup-consult">
+      <div class="row">
+        <div class="column content-box-form__popup-consult">
+          <h3 class="title_section">Нужна консультация?</h3>
+          <form action="#" name="consult" method="post" class="form__write-me column" autocomplete="off">
+            <input type="hidden" name="_consult-form">
+            <label class="column">
+* Представьтесь
+              <input type="text" name="name" id="" placeholder="Бычков Алексей" class="input__open-form" required="">
+            </label>
+            <label class="column">
+              * Ваш e-mail
+              <input type="email" name="email" id="" placeholder="alex@mail.ru" class="input__open-form" required="">
+            </label>
+            <label class="column">
+              Ваш вопрос
+              <textarea class="form-control__open-form" rows="5" name="message" placeholder="Как попасть на консультацию?" required=""></textarea></label>
+           
+            <span class="agree__polyci">* Нажимая кнопку «Отправить», вы соглашаетесь
+              с политикой обработки данных</span>
+            <div class="row box-btn__agree">
+              <button class="btn_section">Отправить</button>
+            </div>
+          </form>
+        </div>
+        <img src="./assets/img/img_popup_form.png" alt="Loveikina" class="img__popup-consult">
+  
+      </div>
+      <div class="close__poup-consult">
+      <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.6438 2L22.1188 24M22.3562 2L1.88125 24" stroke="#DDA67E" stroke-width="3" stroke-linecap="round" />
+      </svg>
+
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

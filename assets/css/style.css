@@ -781,6 +781,86 @@ margin-right: 8px;
  padding-right: 8px;
   border-right: 1px solid #3D5576;
 }
+/*popup*/
+.box__poup-consult {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #c6b49bbf;
+  z-index: 130;
+
+}
+.popup-consult {
+  position: relative;
+  margin: auto;
+  /*width: 80%;*/
+   background: #ffffff;
+  border-radius: 20px;
+   z-index: 10;
+  overflow: hidden;
+ 
+}
+.popup-consult .column {
+  justify-content: flex-start;
+}
+.content-box-form__popup-consult{
+  padding: 50px 40px;
+}
+.form__write-me{
+  margin-top: 49px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img__popup-consult {
+  background: url(../img/Ellipse.png) no-repeat;
+  background-position: left bottom;
+}
+.close__poup-consult {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+  z-index: 10;
+}
+.close__poup-consult svg {
+  z-index: -1;
+}
+/*form pop-up*/
+.input__open-form {
+  font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #667281;
+opacity: 0.6;
+ background: rgba(221, 166, 126, 0.05);
+border: 1px solid #DDA67E;
+border-radius: 8px;
+  padding: 9px 23px;
+  margin-bottom: 13px;
+}
+.form-control__open-form {
+  font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #667281;
+opacity: 0.6;
+ background: rgba(221, 166, 126, 0.05);
+border: 1px solid #DDA67E;
+border-radius: 8px;
+  padding: 9px 23px;
+  margin-bottom: 13px;
+  overflow: hidden;
+}
+.agree__polyci{
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.04em;
+color: #424242;
+margin-bottom: 36px;
+}
 .hidden {
   display: none;
 }

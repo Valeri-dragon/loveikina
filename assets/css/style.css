@@ -245,7 +245,8 @@ ul li ul.submenu.open_sub-menu {
 .link.theme_color:hover,
 .content_box-i-help:hover .link_post_interest,
 .open-player:hover span.pseudo_link,
-.contacts .block-lists .item__block-lists:hover .link-contacts-me {
+.contacts .block-lists .item__block-lists:hover .link-contacts-me,.item_footer-menu:hover,
+.item_block-polycy:hover {
   color: #dda67e;
 }
 .menu-link__active {
@@ -624,7 +625,7 @@ video.video__videofeedbackslider {
   margin-top: 12px;
 }
 /*my-course*/
-.my_course{
+.my_course {
   position: relative;
   padding-bottom: 130px;
 }
@@ -672,41 +673,113 @@ video.video__videofeedbackslider {
 .conteiner-slider-my-course .tag {
   margin-top: 11px;
   font-weight: 400;
-font-size: 19.41px;
-line-height: 23px;
-color: #C9A992;
-
+  font-size: 19.41px;
+  line-height: 23px;
+  color: #c9a992;
 }
 
 .row.conteiner-btn__slider.cont-btn__slider__course {
-position: absolute;
-    top: 35%;
-    z-index: 2;
-    margin-left: 35px;
-    justify-content: space-between;
-    gap: 575%;
+  position: absolute;
+  top: 35%;
+  z-index: 2;
+  margin-left: 35px;
+  justify-content: space-between;
+  gap: 575%;
 }
 /*contacts*/
-.contacts .column{
+.contacts .column {
   margin: auto;
 }
-.contacts .block-lists{
+.contacts .block-lists {
   margin-top: 26px;
   margin-bottom: 18px;
   font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-color: #2A3645;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2a3645;
 }
 
-.contacts .item__block-lists{
+.contacts .item__block-lists {
   margin-bottom: 20px;
 }
-.contacts .item__block-lists:before{
+.contacts .item__block-lists:before {
   content: none;
 }
 span.box__content-contacts-me svg {
-    margin-right: 20px;
+  margin-right: 20px;
+}
+/*footer*/
+.footer{
+  background: #F8F4F1;
+  padding: 22px 0 50px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #2A3645;
+}
+.footer .row{
+  justify-content: space-evenly;
+}
+.item_footer-menu{
+  margin-bottom:  8px;
+}
+.copyright {
+   line-height: 26px;
+  color: #3d5576;
+}
+.list-social{
+  margin: 12px 0 33px;
+}
+ul.list-social.row {
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.item_list-social:hover svg path {
+  fill: #d7a785;
+ 
+}
+.unp {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+ }
+.certificate {
+  font-size: 13px;
+  line-height: 15px;
+}
+.footer-menu {
+ line-height: 24px;
+}
+
+.payment-methods.column{
+  justify-content: flex-start;
+}
+.payment-methods{
+  
+font-size: 16px;
+line-height: 20px;
+}
+.payment-methods p{
+  margin-bottom: 8px;
+}
+/*block-policy*/
+.block-policy{
+  padding: 8px 0 8px;
+}
+.block-policy.row {
+  justify-content: center;
+}
+.item_block-polycy{
+ font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+color: #3D5576;
+margin-right: 8px;
+}
+.item_block-polycy:not(:last-child){
+ padding-right: 8px;
+  border-right: 1px solid #3D5576;
 }
 .hidden {
   display: none;

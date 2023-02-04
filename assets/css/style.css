@@ -1007,6 +1007,12 @@ post*/
   color: #2a3645;
   padding-bottom: 16px;
 }
+.article .list-article li{
+  margin-top: 16px;
+}
+.article .list-article li::before{
+content:"⁃ "
+}
 .related-post{
   padding-bottom: 40px;
 }

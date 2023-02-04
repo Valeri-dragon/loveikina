@@ -426,7 +426,8 @@ ul li ul.submenu.open_sub-menu {
 }
 
 .btn__right__slider__prewie svg,
-.btn__right__slider__interest svg {
+.btn__right__slider__interest svg,
+.btn__right__slider__pagination svg {
   rotate: 180deg;
 }
 .cont-btn__slider__prewie .btn__slider:hover {
@@ -978,6 +979,88 @@ ul.list-social.row {
   letter-spacing: -0.04em;
   color: #424242;
   margin-bottom: 36px;
+}
+/**blog
+courses
+post*/
+.cover-header {
+  padding: 45px 0 65px;
+  background: #dda67e;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.cover-header .title_section {
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+.list-products .row {
+  margin: 36px 0 0;
+  flex-wrap: wrap;
+}
+.list-products .row.container_list-products {
+  margin-bottom: 80px;
+  gap: 64px 0;
+}
+.list-products .row .content_box-i-help {
+  position: relative;
+  flex: 0 0 31.333333%;
+  justify-content: flex-start;
+  margin-bottom: 64px;
+}
+.list-products .tag {
+  font-size: 19.41px;
+  line-height: 23px;
+  color: #c9a992;
+  padding: 16px 0 8px;
+}
+.title_products {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 130%;
+  color: #2a3645;
+  margin-bottom: 8px;
+}
+.description_products {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #a3aeb9;
+  margin-bottom: 26px;
+}
+.list-products .btn_section {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  bottom: -47px;
+}
+/*pagination*/
+.pagination .row{
+  margin: 0 0 120px;
+  justify-content: center;
+  align-items: center;
+}
+.link_pagination {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(163, 174, 185, 0.2);
+  border-radius: 50px;
+  font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+  cursor: pointer;
+}
+.active-pagination{
+  background: linear-gradient(180deg, rgba(248, 244, 241, 0.4) 0%, rgba(248, 244, 241, 0) 80.92%), #D7A785;
+box-shadow: 0px 8px 20px rgba(165, 117, 83, 0.35);
+border-radius: 50px;
+color: #FFFFFF;
+}
+.link_pagination:hover:not(.active-pagination) {
+    background: #a3aeb9;
+    color: #fff;
 }
 .hidden {
   display: none;

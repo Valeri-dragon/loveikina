@@ -290,6 +290,13 @@ ul li ul.submenu.open_sub-menu {
   background-size: cover;
   background-position: center center;
 }
+.unconscious.mainscreen {
+  background:linear-gradient(180deg, rgba(239, 239, 234, 0) 0%, #EFEFEA 100%),
+    url(../../assets/img/main_index_bg_2.jpg), no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 .content__mainscreen {
   display: flex;

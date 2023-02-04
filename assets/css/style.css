@@ -291,8 +291,23 @@ ul li ul.submenu.open_sub-menu {
   background-position: center center;
 }
 .unconscious.mainscreen {
-  background:linear-gradient(180deg, rgba(239, 239, 234, 0) 0%, #EFEFEA 100%),
+  background: linear-gradient(
+      to bottom,
+      rgba(239, 239, 234, 0) 41.18%,
+      #f0efea 98.82%
+    ),
     url(../../assets/img/main_index_bg_2.jpg), no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.center.mainscreen {
+  background: linear-gradient(
+      to bottom,
+      rgba(248, 244, 241, 0) 80%,
+      #f8f4f1 95.57%
+    ),
+    url(../../assets/img/main_index_bg_center.jpg), no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -304,6 +319,9 @@ ul li ul.submenu.open_sub-menu {
   justify-content: space-between;
   padding: 164px 0 170px 0;
 }
+.center .content__mainscreen {
+  padding: 104px 0 184px 0;
+}
 .unconscious .content__mainscreen {
   padding: 144px 0 323px 0;
 }
@@ -311,7 +329,7 @@ ul li ul.submenu.open_sub-menu {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 65%;
+  width: 50%;
   padding-bottom: 35px;
   font-weight: 500;
   font-size: 64px;
@@ -319,8 +337,10 @@ ul li ul.submenu.open_sub-menu {
   letter-spacing: -0.02em;
   color: #2a3645;
 }
-.unconscious .title__mainscreen {
+.unconscious .title__mainscreen,
+.center .title__mainscreen {
   padding-bottom: 0;
+  margin-bottom: 20px;
 }
 .description__mainscreen {
   width: 65%;
@@ -328,8 +348,12 @@ ul li ul.submenu.open_sub-menu {
   line-height: 32px;
   padding-bottom: 54px;
 }
-.unconscious .description__mainscreen {
+.unconscious .description__mainscreen,
+.center .description__mainscreen {
   width: 45%;
+}
+.center .description__mainscreen {
+  padding-bottom: 16px;
 }
 .button__mainscreen {
   width: 30%;
@@ -366,24 +390,24 @@ ul li ul.submenu.open_sub-menu {
   background-position: center center;
 }
 .unconscious.myHistory {
-   transform: scaleX(-1);
-       filter: FlipH;
-  }
-  .unconscious .content-box{
-transform: scaleX(-1);
-       filter: FlipH;
-  }
-  .unconscious .block-lists{
-      margin-top: 34px;
-  }
-   .unconscious .item__block-lists {
-        align-items: center;
-  
-    padding-right: 105px;
+  transform: scaleX(-1);
+  filter: FlipH;
 }
-  .myHistory.unconscious .item__block-lists::before{
-content: none;
-  }
+.unconscious .content-box {
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+.unconscious .block-lists {
+  margin-top: 34px;
+}
+.unconscious .item__block-lists {
+  align-items: center;
+
+  padding-right: 105px;
+}
+.myHistory.unconscious .item__block-lists::before {
+  content: none;
+}
 .conteiner__date_prewie {
   margin-top: 8px;
 }
@@ -419,17 +443,32 @@ content: none;
   fill: #f8f4f1;
 }
 /*what_gives*/
-.what_gives{
+.what_gives {
   padding: 84px 00 68px;
 }
-.what_gives .row{
-  justify-content: center;
-  align-items:center;
-      gap: 143px;
+.center.what_gives {
+  background: #f8f4f1;
+  padding: 110px 00 190px;
 }
-.what_gives .column{
+.center.what_gives .item__block-lists::before {
+  content: none;
+}
+.what_gives .row {
+  justify-content: center;
+  align-items: center;
+  gap: 143px;
+}
+.center.what_gives .row {
+  gap: 78px;
+  padding: 0 101px;
+}
+.center.what_gives .title_section {
+  margin-bottom: 28px;
+}
+.what_gives .column {
   justify-content: center;
 }
+
 /*board*/
 .board {
   background: #f8f4f1;
@@ -447,7 +486,7 @@ content: none;
   background-size: cover;
   padding: 114px 0 199px;
 }
-.about-me.unconscious  {
+.about-me.unconscious {
   position: relative;
   background: url(../../assets/img/main_index__about_me_bg_2.jpg) no-repeat;
   background-position: center;
@@ -639,6 +678,9 @@ video.video__videofeedbackslider {
   align-items: flex-end;
   margin-bottom: 36px;
 }
+.center.my_course .row {
+  margin-bottom: 0;
+}
 .link.theme_color {
   font-weight: 500;
   font-size: 20px;
@@ -705,6 +747,9 @@ video.video__videofeedbackslider {
 .my_course {
   position: relative;
   padding-bottom: 130px;
+}
+.center.my_course {
+  padding: 120px 0;
 }
 .catagory-widget .row {
   justify-content: flex-start;

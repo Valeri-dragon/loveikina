@@ -61,14 +61,14 @@ document.addEventListener("DOMContentLoaded", () => {
      },*/
   });
   //conteiner-slider-my-course
-   const swiper3 = new Swiper(".conteiner-slider-my-course", {
-     // Optional parameters
+  const swiper3 = new Swiper(".conteiner-slider-my-course", {
+    // Optional parameters
 
-     loop: true,
-     //spaceBetween: -65,
-     slidesPerView: 4,
+    loop: true,
+    //spaceBetween: -65,
+    slidesPerView: 4,
 
-     /* breakpoints: {
+    /* breakpoints: {
        1560: {
          slidesPerView: 2,
        },
@@ -77,11 +77,34 @@ document.addEventListener("DOMContentLoaded", () => {
        },
      },*/
 
-     // Navigation arrows
-     navigation: {
-       nextEl: ".btn__right__slider__course",
-       prevEl: ".btn__left__slider__course",
-     },
-   });
+    // Navigation arrows
+    navigation: {
+      nextEl: ".btn__right__slider__course",
+      prevEl: ".btn__left__slider__course",
+    },
+  });
+  //conteiner-slider-center
+  const swiper4 = new Swiper(".conteiner-slider-center", {
+    // Optional parameters
+
+    loop: true,
+    //spaceBetween: -65,
+    slidesPerView: 3,
+
+    /* breakpoints: {
+       1560: {
+         slidesPerView: 2,
+       },
+       768: {
+         slidesPerView: 1,
+       },
+     },*/
+
+    // Navigation arrows
+    navigation: {
+      nextEl: ".btn__right__slider__center",
+      prevEl: ".btn__left__slider__center",
+    },
+  });
   swiper2.autoplay.start();
 });

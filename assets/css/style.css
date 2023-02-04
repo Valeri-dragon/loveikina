@@ -752,9 +752,12 @@ video.video__videofeedbackslider {
 .center.my_course {
   padding: 120px 0;
 }
-.catagory-widget .row {
+.category-widget .row {
   justify-content: flex-start;
   gap: 8px;
+}
+.category-widget .row.blog {
+  justify-content: space-between;
 }
 .category-item {
   padding: 16px 24px;

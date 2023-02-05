@@ -51,14 +51,22 @@ document.addEventListener("DOMContentLoaded", () => {
     autoplay: {
       delay: 2000,
     },
-    /* breakpoints: {
-       1560: {
-         slidesPerView: 2,
-       },
-       768: {
-         slidesPerView: 1,
-       },
-     },*/
+    breakpoints: {
+      1260: {
+        slidesPerView: 4,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      620: {
+        slidesPerView: 0.5,
+      }
+    },
+    // Navigation arrows
+    navigation: {
+      nextEl: ".btn__right__slider__feedback",
+      prevEl: ".btn__left__slider__feedback",
+    },
   });
   //conteiner-slider-my-course
   const swiper3 = new Swiper(".conteiner-slider-my-course", {
@@ -68,14 +76,18 @@ document.addEventListener("DOMContentLoaded", () => {
     //spaceBetween: -65,
     slidesPerView: 4,
 
-    /* breakpoints: {
-       1560: {
-         slidesPerView: 2,
-       },
-       768: {
-         slidesPerView: 1,
-       },
-     },*/
+    breakpoints: {
+      1260: {
+        slidesPerView: 4,
+      },
+      768: {
+        spaceBetween: 65,
+        slidesPerView: 2,
+      },
+      620: {
+        slidesPerView: 0.5,
+      },
+    },
 
     // Navigation arrows
     navigation: {

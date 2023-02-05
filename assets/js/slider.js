@@ -27,14 +27,17 @@ document.addEventListener("DOMContentLoaded", () => {
     loop: true,
     slidesPerView: 2,
 
-    /* breakpoints: {
-       1560: {
-         slidesPerView: 2,
-       },
-       768: {
-         slidesPerView: 1,
-       },
-     },*/
+    breakpoints: {
+      1560: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      320: {
+        slidesPerView: 1,
+      },
+    },
 
     // Navigation arrows
     navigation: {
@@ -58,9 +61,8 @@ document.addEventListener("DOMContentLoaded", () => {
       768: {
         slidesPerView: 2,
       },
-      620: {
-        slidesPerView: 0.5,
-      }
+      320: { spaceBetween: 55,
+         slidesPerView: 1 },
     },
     // Navigation arrows
     navigation: {
@@ -84,8 +86,13 @@ document.addEventListener("DOMContentLoaded", () => {
         spaceBetween: 65,
         slidesPerView: 2,
       },
-      620: {
-        slidesPerView: 0.5,
+      320: {
+        loop: true,
+        //spaceBetween: 65,
+        slidesPerView: 1,
+        autoplay: {
+          delay: 2000,
+        },
       },
     },
 
@@ -103,14 +110,17 @@ document.addEventListener("DOMContentLoaded", () => {
     //spaceBetween: -65,
     slidesPerView: 3,
 
-    /* breakpoints: {
-       1560: {
-         slidesPerView: 2,
-       },
-       768: {
-         slidesPerView: 1,
-       },
-     },*/
+    breakpoints: {
+      1560: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      320: {
+        slidesPerView: 0.5,
+      },
+    },
 
     // Navigation arrows
     navigation: {
@@ -119,4 +129,5 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
   swiper2.autoplay.start();
+  swiper3.autoplay.start();
 });

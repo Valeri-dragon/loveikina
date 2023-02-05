@@ -194,6 +194,9 @@ html::-webkit-scrollbar-thumb {
   position: absolute;
   display: none;
 }
+.item_mob_menu, .min_mob_menu_footer{
+  display: none;
+}
 .link,
 .submenu-list__link {
   position: relative;
@@ -216,8 +219,10 @@ ul li ul.submenu.open_sub-menu {
 .links__item {
   padding: 0 24px 0 0;
 }
-
-.links__item:nth-child(3) .menu-list__link::after {
+.item_dekstop_men{
+  display: block;
+}
+.links__item.item_dekstop_menu_sub .menu-list__link::after {
   content: " ";
   border: 9px solid transparent;
   margin-left: 7px;
@@ -227,7 +232,7 @@ ul li ul.submenu.open_sub-menu {
   position: absolute;
   top: 5px;
 }
-.links__item:hover.links__item:nth-child(3) .menu-list__link::after {
+.links__item:hover.links__item.item_dekstop_menu_sub .menu-list__link::after {
   content: "";
   border: 9px solid transparent;
   margin-left: 7px;
@@ -237,7 +242,7 @@ ul li ul.submenu.open_sub-menu {
   position: absolute;
   top: 5px;
 }
-.links__item:nth-child(4) {
+.links__item.item_menu_course {
   padding-left: 24px;
 }
 .link:hover,

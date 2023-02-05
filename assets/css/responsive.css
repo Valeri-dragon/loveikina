@@ -151,9 +151,14 @@ margin: 8px 0 36px;
 .conteiner-slider-interest {
   width: 100%;
 }
+.conteiner-slider-interest a.column {
+    width: 98%;
+}
 .row.conteiner-btn__slider {
-      top: 47%;
-    gap: 430%;
+       top: 40%;
+    gap: 450%;
+    left: 25px;
+
 }
 .interest .description_section {
     text-align: center;

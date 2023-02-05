@@ -419,14 +419,11 @@ ul li ul.submenu.open_sub-menu {
   padding: 21% 0;
 }
 .row.conteiner-btn__slider {
-     position: absolute;
-      align-items: center;
-         z-index: 1;
- 
-    top: 50%;
-    z-index: 2;
-    justify-content: space-between;
-    gap: 705%;
+  align-items: center;
+  margin-top: 36px;
+  z-index: 2;
+  justify-content: flex-start;
+  gap: 16px;
 }
 
 .btn__right__slider__prewie svg,
@@ -554,14 +551,14 @@ ul li ul.submenu.open_sub-menu {
 .conteiner-slider-interest a.column {
   width: 88%;
   cursor: pointer;
-  margin-left: 35px;
 }
 .conteiner-slider-interest {
   position: relative;
 }
-.conteiner-slider-interest .row.conteiner-btn__slider {
+.interest .row.conteiner-btn__slider {
   position: absolute;
-  top: 20%;
+  top: 45%;
+  left: 49px;
   z-index: 2;
   gap: 699%;
 }
@@ -587,7 +584,6 @@ ul li ul.submenu.open_sub-menu {
 }
 .interest .description_section {
   text-align: left;
-  margin-left: 35px;
 }
 .interest .description_section .link {
   border-bottom: 1px solid #ffffff;
@@ -812,7 +808,7 @@ video.video__videofeedbackslider {
   position: absolute;
   top: 35%;
   z-index: 2;
-  margin-left: 35px;
+  left: 35px;
   justify-content: space-between;
   gap: 575%;
 }
@@ -998,10 +994,10 @@ post*/
 .article .cover-header {
   margin-bottom: 24px;
 }
-.content_article{
+.content_article {
   margin-bottom: 120px;
 }
-.content_article img{
+.content_article img {
   width: 80%;
 }
 .article .description {
@@ -1011,23 +1007,23 @@ post*/
   color: #2a3645;
   padding-bottom: 16px;
 }
-.article .list-article li{
+.article .list-article li {
   margin-top: 16px;
 }
-.article .list-article li::before{
-content:"⁃ "
+.article .list-article li::before {
+  content: "⁃ ";
 }
-.related-post{
+.related-post {
   padding-bottom: 40px;
 }
-.related-post .title_section{
-      display: flex;
-    justify-content: center;
+.related-post .title_section {
+  display: flex;
+  justify-content: center;
   font-weight: 500;
-font-size: 36px;
-line-height: 50px;
-letter-spacing: -0.02em;
-margin-bottom: 36px;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  margin-bottom: 36px;
 }
 .cover-header .title_section {
   color: #ffffff;

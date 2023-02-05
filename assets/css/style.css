@@ -330,7 +330,7 @@ ul li ul.submenu.open_sub-menu {
   flex-direction: row;
   flex-wrap: wrap;
   width: 50%;
-  padding-bottom: 35px;
+  margin-bottom: 24px;
   font-weight: 500;
   font-size: 64px;
   line-height: 74px;
@@ -419,10 +419,14 @@ ul li ul.submenu.open_sub-menu {
   padding: 21% 0;
 }
 .row.conteiner-btn__slider {
-  margin-top: 36px;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 16px;
+     position: absolute;
+      align-items: center;
+         z-index: 1;
+ 
+    top: 50%;
+    z-index: 2;
+    justify-content: space-between;
+    gap: 705%;
 }
 
 .btn__right__slider__prewie svg,
@@ -561,16 +565,16 @@ ul li ul.submenu.open_sub-menu {
   z-index: 2;
   gap: 699%;
 }
-.conteiner-slider-interest .btn__slider:hover {
+.interest .btn__slider:hover {
   width: auto;
   box-shadow: 0px 8px 20px rgba(64, 48, 26, 0.05);
   border-radius: 50px;
 }
-.conteiner-slider-interest .btn__slider:hover svg rect {
+.interest .btn__slider:hover svg rect {
   fill: rgba(255, 255, 255, 0.8);
   fill-opacity: 1;
 }
-.conteiner-slider-interest .btn__slider:hover svg path {
+.interest .btn__slider:hover svg path {
   fill: #c6b49b;
 }
 .interest .description_section,

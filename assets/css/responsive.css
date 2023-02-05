@@ -21,6 +21,12 @@
   .mob-row {
     flex-direction: row;
   }
+  .title_section {
+    font-size: 30px;
+line-height: 130%;
+letter-spacing: -0.02em;
+  }
+
   /*header*/
   .cover {
     position: absolute;
@@ -104,4 +110,59 @@
     padding: 5px 0;
     border: none;
   }
+  /**mainscreen*/
+ .title__mainscreen {
+font-size: 42px;
+line-height: 120%;
+margin-bottom: 16px;
+ }
+ .description__mainscreen {
+  width: 65%;
+font-size: 18px;
+line-height: 140%;
+  padding-bottom: 30px;
+}
+  .content__mainscreen {
+     padding: 64px 0 150px 0;
+}
+.button__mainscreen {
+      width: 50%;
+      padding: 24px 36px;
+}
+  /**board*/
+  .board .mob-column {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .board .mob-column .description_section{
+margin: 8px 0 36px;
+  }
+  /*.interest*/
+   .interest{
+  position: relative;
+  background:     url(../../assets/img/main_index_intresting_bg.jpg) top right/100% 100%
+      no-repeat;
+ padding: 40px 0 27px;
+}
+.interest .title_section {
+      margin-bottom: 38px;
+}
+.conteiner-slider-interest {
+  width: 100%;
+}
+.row.conteiner-btn__slider {
+      top: 47%;
+    gap: 430%;
+}
+.interest .description_section {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 78px;
+}
+.link_post_interest {
+   font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+}
 }

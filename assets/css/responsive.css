@@ -1,4 +1,9 @@
 @media (max-width: 912px) {
+  .close__poup-consult {
+    position: absolute;
+    top: 13px;
+    right: 50%;
+  }
   .page {
     font-size: 16px;
     line-height: 22px;
@@ -353,6 +358,11 @@
   .dis-none{
 display: none;
   }
+  #map {
+    display: block;
+    width: 608px;
+    height: 326px;
+}
 }
 @media (max-width: 840px) {
   .btn__m-menu-active {
@@ -806,6 +816,10 @@ display: none;
   .conteiner-slider-feedback .link_post_interest {
        justify-content: flex-start;
   }
+  #map {
+        width: 288px;
+    height: 154px;
+}
 }
 @media(max-width: 384px){
   .row.conteiner-btn__slider.cont-btn__slider__course{

@@ -350,6 +350,9 @@
   .center.what_gives img {
     width: 260px;
   }
+  .dis-none{
+display: none;
+  }
 }
 @media (max-width: 840px) {
   .btn__m-menu-active {

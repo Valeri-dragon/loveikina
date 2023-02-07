@@ -61,8 +61,20 @@ document.addEventListener("DOMContentLoaded", () => {
       768: {
         slidesPerView: 2,
       },
-      320: { spaceBetween: 55,
-         slidesPerView: 1 },
+      712: {
+        slidesPerView: 2,
+      },
+      640: {
+        slidesPerView: 1.2,
+      },
+      360: {
+        //spaceBetween: -55,
+        slidesPerView: 0.5,
+      },
+      320: {
+        //spaceBetween: -55,
+        slidesPerView: 0.5,
+      },
     },
     // Navigation arrows
     navigation: {
@@ -85,6 +97,12 @@ document.addEventListener("DOMContentLoaded", () => {
       768: {
         spaceBetween: 65,
         slidesPerView: 2,
+      },
+      712: {
+        slidesPerView: 2,
+      },
+      640: {
+        slidesPerView: 1.2,
       },
       320: {
         loop: true,
@@ -116,6 +134,9 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       768: {
         slidesPerView: 2,
+      },
+      712: {
+        slidesPerView: 1.5,
       },
       320: {
         slidesPerView: 0.5,

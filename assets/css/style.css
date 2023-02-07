@@ -1158,7 +1158,11 @@ post*/
 .page-breadcrumb li:hover a {
   text-decoration: underline;
 }
-
+/**map*/
+  #map { display: block;
+                width: 750px;
+                height: 500px;
+            }
 .hidden {
   display: none;
 }

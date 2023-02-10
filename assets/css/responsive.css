@@ -439,7 +439,8 @@
   .interest .row.conteiner-btn__slider {
     left: 15px;
   }
-  
+  video.video__videofeedbackslider {
+  width: 100%;}
 }
 @media (max-width: 640px) {
   .container,

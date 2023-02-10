@@ -626,6 +626,13 @@ ul li ul.submenu.open_sub-menu {
   overflow: hidden;
   border-radius: 3px;
 }
+.modal-player .text_feedback{
+font-size: 18px;
+line-height: 28px;
+color: #4B425E;
+    width: 80%;
+    margin: 0 auto;
+}
 video.video__videofeedbackslider {
   width: auto;
   margin: auto;

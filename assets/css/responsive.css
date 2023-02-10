@@ -383,6 +383,7 @@
     padding: 20px;
     box-shadow: 0px 8px 20px rgb(237 239 241);
     border-radius: 8px;
+        z-index: 13;
   }
   .cover-widget.active_category_widget {
     display: block;
@@ -415,6 +416,9 @@
   .interest .row.conteiner-btn__slider {
     left: 53px;
   }
+  .main_page_widget.cover-widget{
+    right: 250px;
+  }
 }
 @media (max-width: 768px) {
   .btn__m-menu-active {
@@ -435,6 +439,7 @@
   .interest .row.conteiner-btn__slider {
     left: 15px;
   }
+  
 }
 @media (max-width: 640px) {
   .container,
@@ -754,6 +759,9 @@
    .cover-widget {
     right: -60px;
   }
+  .main_page_widget.cover-widget {
+    right: -18px;
+}
 }
 @media (max-width: 540px) {
   .unconscious.what_gives img:nth-child(2) {
@@ -859,6 +867,9 @@
   .cover-widget {
     right: -13px;
   }
+  .main_page_widget.cover-widget {
+    right: 9px;
+}
 }
 @media (max-width: 384px) {
   .row.conteiner-btn__slider.cont-btn__slider__course {

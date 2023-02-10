@@ -777,6 +777,9 @@ video.video__videofeedbackslider {
 .category-widget .row.blog {
   justify-content: space-between;
 }
+.category-item.more_category{
+  display: none;
+}
 .category-item {
   display: flex;
   justify-content: center;

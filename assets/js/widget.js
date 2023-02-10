@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log(window.screen.height);
  btnMoreWidget.addEventListener("click", () => {
     itemWidget.forEach((item) => {
-      if (window.screen.height>1000){
+      if (window.screen.height<1000){
  if (
    item.hasAttribute("data-role", "hidden") &&
    !item.classList.contains("active_item_widget")

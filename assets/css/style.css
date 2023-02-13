@@ -212,10 +212,9 @@ ul li ul.submenu.open_sub-menu {
   position: absolute;
   top: auto;
   display: block;
-  width: 150px;
-  height: 0px;
-  border-bottom: 1px solid #dda67e;
-}
+      background: #ffffff;
+    padding: 16px;
+ }
 
 .links__item {
   padding: 0 24px 0 0;
@@ -423,6 +422,7 @@ ul li ul.submenu.open_sub-menu {
   margin-left: auto;
   margin-right: 0;
   padding: 21% 0;
+  padding-left: 20px;
 }
 .row.conteiner-btn__slider {
   align-items: center;
@@ -461,6 +461,9 @@ ul li ul.submenu.open_sub-menu {
 .unconscious.center.what_gives {
   background: #f8f4f1;
   padding: 110px 00 190px;
+}
+.what_gives.unconscious img:nth-child(2){
+  display: none;
 }
 .center.what_gives .item__block-lists::before {
   content: none;
@@ -573,7 +576,7 @@ ul li ul.submenu.open_sub-menu {
 .interest .row.conteiner-btn__slider {
   position: absolute;
   top: 45%;
-  left: 49px;
+  left: 279px;
   z-index: 2;
   gap: 699%;
 }
@@ -854,7 +857,7 @@ video.video__videofeedbackslider {
   position: absolute;
   top: 35%;
   z-index: 2;
-  left: 35px;
+  left: 235px;
   justify-content: space-between;
   gap: 575%;
 }
@@ -1078,6 +1081,10 @@ post*/
 .cover-header .title_section {
   color: #ffffff;
   margin-bottom: 24px;
+}
+.article .cover-header .title_section {
+  margin-top: 24px;
+  margin-bottom: 0;
 }
 .subtitle {
   font-weight: 400;

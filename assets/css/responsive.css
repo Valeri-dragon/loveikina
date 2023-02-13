@@ -1,3 +1,11 @@
+@media (max-width: 1524px) {
+  .interest .row.conteiner-btn__slider {
+    left: 49px;
+  }
+  .row.conteiner-btn__slider.cont-btn__slider__course {
+       left: 35px;
+   }
+  }
 @media (max-width: 912px) {
   .close__poup-consult {
     position: absolute;
@@ -441,6 +449,10 @@
   }
   video.video__videofeedbackslider {
   width: 100%;}
+  .article .cover-header .title_section {
+    margin-top: 12px;
+   
+}
 }
 @media (max-width: 640px) {
   .container,
@@ -566,6 +578,7 @@
   .conteiner-slider-prewie.swiper {
     width: 100%;
     padding: 36px 0 70px;
+    padding-left: 10px;
   }
 
   /*interest*/
